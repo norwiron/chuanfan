@@ -15,14 +15,12 @@
     src: url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 }
 .main {
-    text-align: center;
+    text-align: left;
     margin-top: 50px;
     margin-left: 50px;
 }
 .banner {
     text-align: center;
-    margin-top: 50px;
-    margin-left: 50px;
 }
 .nav {
     display: flex;
@@ -31,16 +29,28 @@
     font-weight: bold;
     color: #302d2d;
     margin: 20px 30px;
-    gap: 20px;
+    gap: 50px;
     padding: 20px;
 }
 .navbar {
     display: block;
     text-decoration: none;
     width: 100px;
-    height: 50px;
+    height: 30px;
     color: #302d2d;
-    background-color: #f0f0f0;
-    padding: 10px 20px;
-    border-radius: 5px;
+    background-color: #ffe6ac;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.navbar:hover {
+    background-color: #b17a57;
+    color: #ffffff;
+}
+.content {
+    position: relative;
+    text-align: left;
+    color: #302d2d;
+    background-color: #ffe6ac;
+    margin-top: 50px;
+    margin-left: 50px;
 }
