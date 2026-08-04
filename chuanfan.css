@@ -27,6 +27,7 @@
     height: 40px;
     color: #3f4955;
     background-color: #ffe6ac;
+    padding: 10px;
     box-sizing: border-box;
     border-radius: 8px;
 }
