@@ -15,7 +15,6 @@
     display: flex;
     justify-content: flex-end;
     text-align: center;
-    float: right;
     margin: 20px 30px;
     gap: 50px;
 }
