@@ -1,2 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: note_serif_tc;
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+}
+@font-face {
+    font-family: note_sans_tc;
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+}
