@@ -36,7 +36,7 @@
     color: #ffffff;
 }
 .content-title {
-    position: relative;
+    position: fixed;
     text-align: left;
     color: #ffe6ac;
     margin: 5px 100px 5px 150px;
