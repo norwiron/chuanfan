@@ -13,10 +13,9 @@
 }
 .nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     text-align: center;
     float: right;
-    color: #ffe6ac;
     margin: 20px 30px;
     gap: 50px;
 }
@@ -25,6 +24,10 @@
     text-decoration: none;
     font-size: 24px;
     font-weight: bold;
+    width: 200px;
+    height: 75px;
+    color: #ffe6ac;;
+    padding: 40px;
     box-sizing: border-box;
 }
 .navigation {
