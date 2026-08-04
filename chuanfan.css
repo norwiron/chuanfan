@@ -20,6 +20,16 @@
     margin: 20px 30px;
     gap: 50px;
 }
+.navbar {
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.navigation {
+    float: right;
+}
 .navbar:hover {
     background-color: #b17a57;
     color: #ffffff;
