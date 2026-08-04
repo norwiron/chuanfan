@@ -34,9 +34,9 @@
 }
 .navbar {
     text-decoration: none;
-    color: #ffffff;
+    color: #302d2d;
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
+    background-color: #f0f0f0;
 }
