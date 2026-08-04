@@ -15,6 +15,7 @@
     display: flex;
     justify-content: flex-end;
     text-align: center;
+    float: right;
     margin: 20px 30px;
     gap: 50px;
 }
@@ -28,9 +29,6 @@
     color: #ffe6ac;;
     padding: 40px;
     box-sizing: border-box;
-}
-.navigation {
-    float: right;
 }
 .navbar:hover {
     background-color: #b17a57;
