@@ -1,8 +1,21 @@
 @font-face {
-    font-family: note_serif_tc;
+    font-family: noto_serif_tc;
     src: url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 }
 @font-face {
-    font-family: note_sans_tc;
+    font-family: noto_sans_tc;
     src: url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+}
+@font-face {
+    font-family: noto_serif;
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+}
+@font-face {
+    font-family: noto_sans;
+    src: url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+}
+.main {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
 }
