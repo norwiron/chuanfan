@@ -19,6 +19,14 @@
     margin-top: 20px;
     margin-left: 50px;
 }
+.title {
+    font-family: noto_serif_tc, noto_serif, serif;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffe6ac;
+    margin-left: 10px;
+}
 .banner {
     text-align: center;
     margin-top: 20px;
@@ -37,7 +45,7 @@
     text-decoration: none;
     font-weight: bold;
     width: 100px;
-    height: 30px;
+    height: 40px;
     color: #302d2d;
     background-color: #ffe6ac;
     padding: 10px;
@@ -48,11 +56,22 @@
     background-color: #b17a57;
     color: #ffffff;
 }
+.content-title {
+    position: relative;
+    text-align: left;
+    color: #ffe6ac;
+    margin: 5px 50px 5px 150px;
+}
 .content {
     position: relative;
     text-align: left;
     color: #302d2d;
+    margin: 5px 10px 5px;
     background-color: #ffe6ac;
-    margin-top: 50px;
-    margin-left: 50px;
+    max-width: 800px;
+    padding: 20px;
+    line-height: 1.5;
+    border-radius: 8px;
+    margin: 5px 50px 5px 150px;
+    box-sizing: border-box;
 }
