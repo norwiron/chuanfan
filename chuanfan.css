@@ -21,8 +21,7 @@
 }
 .banner {
     text-align: center;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin:20px 50px;
 }
 .nav {
     display: flex;
