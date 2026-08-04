@@ -21,11 +21,13 @@
 }
 .title {
     font-family: noto_serif_tc, noto_serif, serif;
-    text-align: left;
     font-size: 24px;
     font-weight: bold;
-    color: #ffe6ac;
-    margin-left: 10px;
+    color: #ffffff;
+    margin-left: 30px;
+}
+.logo-container {
+    float: left;
 }
 .banner {
     text-align: center;
@@ -35,10 +37,9 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    color: #302d2d;
+    color: #3f4955;
     margin: 20px 30px;
     gap: 50px;
-    padding: 20px;
 }
 .navbar {
     display: block;
@@ -46,7 +47,7 @@
     font-weight: bold;
     width: 100px;
     height: 40px;
-    color: #302d2d;
+    color: #3f4955;
     background-color: #ffe6ac;
     padding: 10px;
     box-sizing: border-box;
@@ -65,10 +66,10 @@
 .content {
     position: relative;
     text-align: left;
-    color: #302d2d;
+    color: #3f4955;
     margin: 5px 10px 5px;
     background-color: #ffe6ac;
-    max-width: 800px;
+    max-width: 500px;
     padding: 20px;
     line-height: 1.5;
     border-radius: 8px;
