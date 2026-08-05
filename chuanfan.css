@@ -53,6 +53,7 @@
     box-sizing: border-box;
 }
 .contacts {
+    position: relative;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -65,7 +66,7 @@
 .contacts-title {
     text-align: left;
     color: #ffe6ac;
-    margin-bottom: -100px;
+    margin-top: 100px;
 }
 .cbar {
     display: block;
