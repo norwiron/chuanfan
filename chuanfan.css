@@ -66,12 +66,7 @@
 .contacts-title {
     text-align: left;
     color: #ffe6ac;
-    margin-top: 100px;
-}
-.ctct {
-    display: flex;
-    flex-direction: column;
-    margin-top: -30px;
+    margin-top: 300px;
 }
 .cbar {
     display: block;
