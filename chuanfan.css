@@ -59,16 +59,13 @@
     text-align: center;
     color: #ffe6ac;
     gap: 20px;
-    margin-left: 60px;
-    margin-top: -200px;
-    margin-right: 50px;
+    margin-top: -150px;
+    margin-right: 200px;
     float: right;
 }
 .contacts-title {
     text-align: left;
     color: #ffe6ac;
-    margin-left: 60px;
-    margin-top: -20px;
 }
 .cbar {
     display: block;
