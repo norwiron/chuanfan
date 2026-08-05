@@ -69,6 +69,8 @@
     margin-top: 100px;
 }
 .ctct {
+    display: flex;
+    flex-direction: column;
     margin-top: -30px;
 }
 .cbar {
