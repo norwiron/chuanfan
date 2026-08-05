@@ -24,7 +24,7 @@
     font-size: 18px;
     font-weight: bold;
     width: 180px;
-    height: 45px;
+    height: 35px;
     color: #ffe6ac;;
     padding: 45px;
     box-sizing: border-box;
@@ -45,7 +45,7 @@
     color: #3f4955;
     margin: 5px 10px 5px;
     background-color: #ffe6ac;
-    max-width: 600px;
+    max-width: 700px;
     padding: 20px;
     line-height: 1.5;
     border-radius: 8px;
