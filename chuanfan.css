@@ -62,20 +62,21 @@
     margin-right: 250px;
     float: right;
 }
-.contacts-title {
+.mail {
     text-align: left;
     color: #ffe6ac;
-    margin-top: 100px;
+    margin-left: 110px;
 }
 .cbar {
-    text-align: center;
+    display: block;
+    align-items: center;
+    text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    color: #3f4955;
     width: 180px;
     height: 40px;
-    background-color: #ffe6ac;
-    border-radius: 8px;
     padding: 10px 0;
+    color: #3f4955;
+    background-color: #ffe6ac;
     box-sizing: border-box;
 }
