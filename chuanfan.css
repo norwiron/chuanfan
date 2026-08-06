@@ -65,11 +65,13 @@
 .mail {
     text-align: left;
     color: #ffe6ac;
-    margin-left: 110px;
+    float: right;
+    margin-top: -50px;
 }
 .cbar {
     display: block;
     align-items: center;
+    float: right;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
