@@ -89,3 +89,31 @@
     border-radius: 8px;
     box-sizing: border-box;
 }
+.cbar:hover {
+    background-color: #b17a57;
+    color: #ffffff;
+}
+.cool {
+    position: relative;
+    text-align: left;
+    color: #ffe6ac;
+    margin-left: 90px;
+    margin-top: 60px;
+}
+.wide {
+    margin-top: -20px;
+    margin-left: 120px;
+}
+.history {
+    position: relative;
+    text-align: left;
+    float: right;
+    border: 1px solid #ffe6ac;
+    color: #ffe6ac;
+    margin: 5px 40px 5px;
+    max-width: 600px;
+    padding: 20px;
+    line-height: 1.5;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
