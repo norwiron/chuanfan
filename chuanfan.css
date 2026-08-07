@@ -9,6 +9,7 @@
 }
 .banner {
     overflow: hidden;
+    margin-top: 20px;
     width: 100%;
     height: 500px;
 }
@@ -59,14 +60,15 @@
     text-align: center;
     color: #ffe6ac;
     gap: 20px;
-    margin-right: 50px;
+    margin-right: -150px;
     float: right;
 }
 .mail {
     text-align: left;
     color: #ffe6ac;
     float: right;
-    margin-right: 50px;
+    margin-top: -50px;
+    margin-right: 150px;
 }
 .cbar {
     display: block;
