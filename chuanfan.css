@@ -84,9 +84,8 @@
     display: block;
     color: #3f4955;
     background-color: #ffe6ac;
-    width: auto;
-    height: auto;
-    max-height: 500px;
+    width: 450px;
+    height: 500px;
     padding: 20px;
     line-height: 1.5;
     border-radius: 8px;
