@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&display=swap');
 .wrapper {
     display: grid;
-    grid-template-rows: 100px 300px 600px 600px;
+    grid-template-rows: 100px 300px 600px 400px;
     grid-template-columns: 50vw 600px;
     grid-template-areas:
         "main nav"
@@ -25,6 +25,7 @@
     font-weight: bold;
     color: #ffffff;
     margin-left: 30px;
+    margin-top: -10px;
 }
 
 .subtitle {
@@ -33,10 +34,10 @@
     font-size: 16px;
     color: #ffffffc0;
     margin-left: 40px;
-    margin-top: -15px;
+    margin-top: -20px;
 }
 .banner {
-    max-width: 600px;
+    max-width: 1000px;
     height: auto;
     grid-area: banner;
 }
@@ -84,6 +85,7 @@
     flex-direction: column;
     text-align: center;
     color: #ffe6ac;
+    margin-left: 50px;
     gap: 20px;
     grid-area: contacts;
 }
@@ -112,7 +114,7 @@
 .cool {
     position: relative;
     text-align: left;
-    max-width: 100px;
+    max-width: 500px;
     height: auto;
     color: #ffe6ac;
     grid-area: cool;
