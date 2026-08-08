@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&display=swap');
 .wrapper {
     display: grid;
-    grid-template-rows: 100px 300px 500px 400px;
+    grid-template-rows: 100px 300px 400px 400px;
     grid-template-columns: 50vw 730px;
     grid-template-areas:
         "main nav"
@@ -85,7 +85,7 @@
     color: #3f4955;
     background-color: #ffe6ac;
     width: 450px;
-    height: 500px;
+    height: 300px;
     padding: 20px;
     line-height: 1.5;
     border-radius: 8px;
