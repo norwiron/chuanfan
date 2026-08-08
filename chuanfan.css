@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&display=swap');
 .wrapper {
     display: grid;
-    grid-template-rows: 100px 300px 330px 400px;
+    grid-template-rows: 100px 300px 400px 400px;
     grid-template-columns: 50vw 650px;
     grid-template-areas:
         "main nav"
@@ -29,7 +29,6 @@
 }
 
 .subtitle {
-    vertical-align: text-bottom;
     font-family: 'Noto Serif TC', 'Noto Serif', serif;
     font-size: 16px;
     color: #ffffffc0;
@@ -41,7 +40,7 @@
     height: 300px;
     border: 0px solid;
     background-image: url("sea_wmark.png");
-    background-size: contain;
+    background-size: cover;
     grid-area: banner;
 }
 .nav {
