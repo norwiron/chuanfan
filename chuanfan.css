@@ -2,7 +2,7 @@
 .wrapper {
     display: grid;
     grid-template-rows: 100px 300px 420px 400px;
-    grid-template-columns: 50vw 655px;
+    grid-template-columns: 50vw 652px;
     grid-template-areas:
         "main nav"
         "banner banner"
@@ -36,7 +36,7 @@
     margin-top: -20px;
 }
 .banner {
-    width: 100vw;
+    width: 50vw;
     height: 300px;
     border: 0px solid;
     background-image: url("sea_wmark.png");
