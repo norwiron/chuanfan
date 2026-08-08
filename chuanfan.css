@@ -42,7 +42,7 @@
     border: 0px solid;
     justify-self: center;
     background-image: url("sealiotic.png");
-    background-position: center bottom -35px;
+    background-position: center bottom -50px;
     grid-area: banner;
 }
 .nav {
