@@ -8,7 +8,6 @@
         "banner banner"
         "con contacts"
         "cool history";
-    margin: 20px 20px;
 }
 
  .main {
@@ -66,6 +65,7 @@
 }
 .con {
     grid-area: con;
+    justify-self: center;
 }
 .content-title {
     position: relative;
@@ -87,6 +87,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-self: center;
     color: #ffe6ac;
     margin-left: 50px;
     gap: 20px;
@@ -117,6 +118,7 @@
 .cool {
     position: relative;
     text-align: left;
+    justify-self: center;
     max-width: auto;
     max-height: 400px;
     color: #ffe6ac;
@@ -125,6 +127,7 @@
 .history {
     position: relative;
     text-align: left;
+    justify-self: center;
     border: 1px solid #ffe6ac;
     color: #ffe6ac;
     margin: 5px 40px 5px 5px;
