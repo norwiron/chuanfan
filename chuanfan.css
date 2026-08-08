@@ -2,7 +2,7 @@
 .wrapper {
     display: grid;
     grid-template-rows: 100px 300px 600px 400px;
-    grid-template-columns: 60vw 800px;
+    grid-template-columns: 60vw 700px;
     grid-template-areas:
         "main nav"
         "banner banner"
