@@ -41,7 +41,7 @@
     border: 0px solid;
     justify-self: center;
     background-image: url("sea_wmark.png");
-    background-size: cover;
+    background-size: contain;
     grid-area: banner;
 }
 .nav {
