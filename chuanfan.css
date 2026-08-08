@@ -8,6 +8,7 @@
         "banner banner"
         "content contacts"
         "cool history";
+    margin: 20px 20px;
 }
 
  .main {
@@ -35,7 +36,7 @@
     color: #ffffffc0;
 }
 .banner {
-    max-width: 600px;
+    max-width: 200px;
     height: auto;
     grid-area: banner;
 }
@@ -70,7 +71,6 @@
     position: relative;
     text-align: left;
     color: #3f4955;
-    margin: 5px 40px 5px;
     background-color: #ffe6ac;
     max-width: 600px;
     padding: 20px;
@@ -112,6 +112,7 @@
 .cool {
     position: relative;
     text-align: left;
+    width: 100px;
     color: #ffe6ac;
     grid-area: cool;
 }
