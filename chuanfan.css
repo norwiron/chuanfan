@@ -16,11 +16,9 @@
     grid-area: main;
 }
 .logo-container {
-    display: inline-block;
     vertical-align: middle;
 }
 .title {
-    display: inline-block;
     vertical-align: text-top;
     font-family: 'Noto Serif TC', 'Noto Serif', serif;
     font-size: 24px;
@@ -29,14 +27,13 @@
 }
 
 .subtitle {
-    display: inline-block;
     vertical-align: text-bottom;
     font-family: 'Noto Serif TC', 'Noto Serif', serif;
     font-size: 16px;
     color: #ffffffc0;
 }
 .banner {
-    max-width: 200px;
+    max-width: 50px;
     height: auto;
     grid-area: banner;
 }
@@ -112,7 +109,8 @@
 .cool {
     position: relative;
     text-align: left;
-    width: 100px;
+    max-width: 30px;
+    height: auto;
     color: #ffe6ac;
     grid-area: cool;
 }
