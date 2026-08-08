@@ -15,15 +15,9 @@
     margin-top: 20px;
     margin-left: 50px;
 }
-.logo-container {
-    float: left;
-}
-.banner {
-    overflow: hidden;
-}
 .nav {
     display: flex;
-    justify-content: row;
+    flex-direction: row;
     text-align: center;
     gap: 30px;
 }
