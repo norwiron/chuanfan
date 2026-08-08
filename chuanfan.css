@@ -1,8 +1,8 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&display=swap');
 .wrapper {
     display: grid;
-    grid-template-rows: 100px 300px 400px 400px;
-    grid-template-columns: 50vw 650px;
+    grid-template-rows: 100px 300px 420px 400px;
+    grid-template-columns: 50vw 655px;
     grid-template-areas:
         "main nav"
         "banner banner"
@@ -36,7 +36,7 @@
     margin-top: -20px;
 }
 .banner {
-    width: 1000px;
+    width: 100vw;
     height: 300px;
     border: 0px solid;
     background-image: url("sea_wmark.png");
