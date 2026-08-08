@@ -8,6 +8,7 @@
         "banner banner"
         "con contacts"
         "cool history";
+        row-gap: 10px;
 }
 
  .main {
@@ -40,7 +41,7 @@
     height: 300px;
     border: 0px solid;
     justify-self: center;
-    background-image: url("sea_wmark.png");
+    background-image: url("sealiotic.png");
     background-position: center bottom -20px;
     grid-area: banner;
 }
@@ -84,6 +85,7 @@
     background-color: #ffe6ac;
     width: auto;
     height: auto;
+    max-height: 500px;
     padding: 20px;
     line-height: 1.5;
     border-radius: 8px;
