@@ -1,13 +1,15 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&display=swap');
 .wrapper {
     display: grid;
-    grid-template-rows: 100px 300px 500px 400px;
+    grid-template-rows: 100px 300px 350px 100px 300px 400px;
     grid-template-columns: 50vw 730px;
     grid-template-areas:
         "main nav"
         "banner banner"
-        "con contacts"
-        "cool history";
+        "con con" 
+        "contacts contacts"
+        "cool cool" 
+        "history history";
         row-gap: 10px;
 }
 .wrapper-2{
@@ -32,7 +34,7 @@
     font-family: 'Noto Serif TC', 'Noto Serif', serif;
     font-size: 24px;
     font-weight: bold;
-    white-space: none;
+    white-space: nowrap;
     color: #ffffff;
     margin-left: 30px;
     margin-top: -10px;
@@ -41,13 +43,13 @@
 .subtitle {
     font-family: 'Noto Serif TC', 'Noto Serif', serif;
     font-size: 16px;
-    white-space: none;
+    white-space: nowrap;
     color: #ffffffc0;
     margin-left: 40px;
     margin-top: -20px;
 }
 .banner {
-    width: 1450px;
+    width: 900px;
     height: 300px;
     border: 0px solid;
     justify-self: center;
@@ -86,33 +88,27 @@
 }
 .content-title {
     position: relative;
-    text-align: left;
+    text-align: center;
     color: #ffe6ac;
 }
 .content {
     position: relative;
     text-align: left;
     display: block;
-    color: #3f4955;
-    background-color: #ffe6ac;
-    width: 450px;
-    height: 300px;
+    color: #ffe6ac;
+    width: 800px;
     padding: 20px;
     line-height: 1.5;
     border-radius: 8px;
 }
 .contacts {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     justify-self: center;
     color: #ffe6ac;
     gap: 20px;
     grid-area: contacts;
-}
-.mail {
-    text-align: left;
-    color: #ffe6ac;
 }
 .cbar {
     display: block;
