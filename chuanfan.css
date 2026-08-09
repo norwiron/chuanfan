@@ -10,7 +10,14 @@
         "cool history";
         row-gap: 10px;
 }
-
+.wrapper-2{
+    display: grid;
+    grid-template-rows: 100px 500px;
+    grid-template-columns: 50vw 730px;
+    grid-template-areas:
+        "main nav"
+        "silliotic silliotic-pic"
+}
  .main {
     margin-top: 20px;
     margin-left: 50px;
@@ -155,4 +162,31 @@
     font-size: 12px;
     margin-top: 50px;
     margin-bottom: 20px;
+}
+.silliotic  {
+    position: relative;
+    text-align: left;
+    justify-self: right;
+    grid-area: silliotic;
+}
+.silliotic a {
+    color: #ffe6ac;
+    text-decoration: none;
+}
+.silliotic-title {
+    color: #ffe6ac;
+}
+.silliotic-text{
+    display: block;
+    color: #3f4955;
+    background-color: #ffe6ac;
+    width: 450px;
+    padding: 20px;
+    line-height: 1.5;
+    border-radius: 8px;
+}
+.silliotic-pic {
+    margin-top: 60px;
+    justify-self: center;
+    grid-area: silliotic-pic;
 }
