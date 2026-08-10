@@ -1,52 +1,43 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&display=swap');
 .wrapper {
     display: grid;
-    grid-template-rows: 100px 300px 350px 100px 300px 400px;
+    grid-template-rows: 100px 50px 300px 250px 100px 300px 300px;
     grid-template-columns: 50vw 730px;
     grid-template-areas:
-        "main nav"
+        "main main"
+        "nav nav"
         "banner banner"
         "con con" 
         "contacts contacts"
-        "cool cool" 
-        "history history";
+        "silliotic silliotic"
+        "archive archive";
         row-gap: 10px;
 }
 .wrapper-2{
     display: grid;
-    grid-template-rows: 100px 300px 500px 400px;
+    grid-template-rows: 100px 50px 500px 400px;
     grid-template-columns: 50vw 730px;
     grid-template-areas:
-        "main nav"
-        "silliotic silliotic"
+        "main main"
+        "nav nav"
+        "history history";
+        row-gap: 10px;
+}
+.wrapper-3 {
+    display: grid;
+    grid-template-rows: 100px 50px 500px;
+    grid-template-columns: 50vw 730px;
+    grid-template-areas:
+    "main main"
+    "nav nav"
+    "works works";
+    row-gap: 10px;
 }
 
  .main {
     margin-top: 20px;
-    margin-left: 50px;
+    justify-self: center;
     grid-area: main;
-}
-.logo-container {
-    float: left;
-    margin-top: -10px;
-}
-.title {
-    font-family: 'Noto Serif TC', 'Noto Serif', serif;
-    font-size: 24px;
-    font-weight: bold;
-    white-space: nowrap;
-    color: #ffffff;
-    margin-left: 30px;
-    margin-top: -10px;
-}
-
-.subtitle {
-    font-family: 'Noto Serif TC', 'Noto Serif', serif;
-    font-size: 16px;
-    white-space: nowrap;
-    color: #ffffffc0;
-    margin-left: 40px;
-    margin-top: -20px;
 }
 .banner {
     width: 900px;
@@ -62,8 +53,7 @@
     display: flex;
     flex-direction: row;
     text-align: center;
-    justify-self: right;
-    margin-top: 30px;
+    justify-self: center;
     gap: 30px;
     grid-area: nav;
 }
@@ -93,10 +83,10 @@
 }
 .content {
     position: relative;
-    text-align: left;
+    text-align: center;
     display: block;
     color: #ffe6ac;
-    width: 800px;
+    width: 500px;
     padding: 20px;
     line-height: 1.5;
     border-radius: 8px;
@@ -116,7 +106,7 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
-    width: 180px;
+    width: 130px;
     height: 40px;
     padding: 10px 0;
     color: #3f4955;
@@ -128,15 +118,71 @@
     background-color: #b17a57;
     color: #ffffff;
 }
-.cool {
-    position: relative;
-    text-align: left;
+.footer {
     justify-self: center;
-    max-width: auto;
-    max-height: 400px;
+}
+.silliotic  {
+    position: relative;
+    justify-self: center;
+    grid-area: silliotic;
+}
+.silliotic a {
     color: #ffe6ac;
-    grid-area: cool;
-}   
+    text-decoration: none;
+}
+.silliotic-title {
+    color: #3f4955;
+    justify-self: center;
+    text-align: center;
+    margin-top: -10px;
+}
+.silliotic-text{
+    display: block;
+    color: #3f4955;
+    background-color: #ffffff;
+    width: 800px;
+    height: 250px;
+    padding: 20px;
+    line-height: 1.5;
+}
+.zhongli {
+    float: left;
+    justify-self: center;
+    margin-right: 10px;
+    margin-top: -20px;
+    width: 250px;
+}
+.archive {
+    text-align: center;
+    justify-self: center;
+    grid-area: archive;
+
+}
+.archive a {
+    text-decoration: none;
+}
+.arch-title {
+    font-family:'Noto Serif TC' , 'Noto Serif';
+    color: #3f4955;
+    justify-self: center;
+    margin-top: -10px;
+}
+.arch-text {
+    display: block;
+    color: #3f4955;
+    background-color: #ffe6ac;
+    width: 800px;
+    height: 250px;
+    padding: 20px;
+    line-height: 1.5;
+}
+.biya {
+    float: right;
+    justify-self: center;
+    width: 155px;
+    margin-top: -50px;
+    margin-right: 10px;
+}
 .history {
     position: relative;
     text-align: left;
@@ -151,42 +197,36 @@
     box-sizing: border-box;
     grid-area: history;
 }
+
 .his-title {
     text-align: left;
     color: #ffe6ac;
     margin-top: -10px;
 }
-.footer-text {
-    text-align: center;
-    color: #ffe6ac;
-    font-size: 12px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-.silliotic  {
-    position: relative;
+.works {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-self: center;
-    grid-area: silliotic;
-}
-.silliotic a {
-    color: #ffe6ac;
+    justify-content: center;
     text-decoration: none;
-}
-.silliotic-title {
-    color: #ffe6ac;
-}
-.silliotic-text{
-    display: block;
-    color: #3f4955;
     background-color: #ffe6ac;
-    width: 800px;
-    padding: 20px;
-    line-height: 1.5;
+    width: 900px;
+    height: 300px;
     border-radius: 8px;
+    gap: 100px;
+    margin-top: 30px;
+    grid-area: works;
 }
-.zhongli {
-    float: left;
+.works a {
+    text-decoration: none;
+    text-align: center;
+    color: #3f4955;
+}
+.works-logo {
     justify-self: center;
-    margin-right: 10px;
-    width: 280px;;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+  
 }
