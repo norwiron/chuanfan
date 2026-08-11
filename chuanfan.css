@@ -1,37 +1,27 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&display=swap');
 .wrapper {
     display: grid;
-    grid-template-rows: 100px 50px 300px 250px 100px 300px 300px;
-    grid-template-columns: 50vw 730px;
+    grid-template-rows: 100px 50px 300px 250px 100px 300px 300px 300px;
     grid-template-areas:
-        "main main"
-        "nav nav"
-        "banner banner"
-        "con con" 
-        "contacts contacts"
-        "silliotic silliotic"
-        "archive archive";
+        "main"
+        "nav"
+        "banner"
+        "con" 
+        "contacts"
+        "silliotic"
+        "archive"
+        "footer";
         row-gap: 10px;
 }
 .wrapper-2{
     display: grid;
     grid-template-rows: 100px 50px 500px 400px;
-    grid-template-columns: 50vw 730px;
     grid-template-areas:
-        "main main"
-        "nav nav"
-        "history history";
+        "main"
+        "nav"
+        "history"
+        "footer";
         row-gap: 10px;
-}
-.wrapper-3 {
-    display: grid;
-    grid-template-rows: 100px 50px 500px;
-    grid-template-columns: 50vw 730px;
-    grid-template-areas:
-    "main main"
-    "nav nav"
-    "works works";
-    row-gap: 10px;
 }
 
  .main {
@@ -120,6 +110,7 @@
 }
 .footer {
     justify-self: center;
+    justify-content: center;
 }
 .silliotic  {
     position: relative;
@@ -134,13 +125,18 @@
     color: #3f4955;
     justify-self: center;
     text-align: center;
-    margin-top: -10px;
+    margin-top: 0px;
+}
+.silliotic-logo {
+    display: flex;
+    justify-self: center;
+    width: 36px;
 }
 .silliotic-text{
     display: block;
     color: #3f4955;
     background-color: #ffffff;
-    width: 800px;
+    width: 650px;
     height: 250px;
     padding: 20px;
     line-height: 1.5;
@@ -171,7 +167,7 @@
     display: block;
     color: #3f4955;
     background-color: #ffe6ac;
-    width: 800px;
+    width: 650px;
     height: 250px;
     padding: 20px;
     line-height: 1.5;
@@ -202,31 +198,4 @@
     text-align: left;
     color: #ffe6ac;
     margin-top: -10px;
-}
-.works {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-self: center;
-    justify-content: center;
-    text-decoration: none;
-    background-color: #ffe6ac;
-    width: 900px;
-    height: 300px;
-    border-radius: 8px;
-    gap: 100px;
-    margin-top: 30px;
-    grid-area: works;
-}
-.works a {
-    text-decoration: none;
-    text-align: center;
-    color: #3f4955;
-}
-.works-logo {
-    justify-self: center;
-    align-items: center;
-    width: 150px;
-    height: 150px;
-  
 }
