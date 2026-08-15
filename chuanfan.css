@@ -110,7 +110,7 @@
     justify-self: center;
 }
 .content-title {
-    position: relative;
+    justify-self: center;
     text-align: center;
     color: #ffe6ac;
 }
