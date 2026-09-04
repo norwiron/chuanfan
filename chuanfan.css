@@ -1,7 +1,7 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&display=swap');
 .wrapper {
     display: grid;
-    grid-template-rows: 100px 50px 300px 250px 100px 300px 300px 300px;
+    grid-template-rows: 100px 50px 300px 250px 100px 350px 500px 300px;
     grid-template-areas:
         "main"
         "nav"
@@ -15,11 +15,12 @@
 }
 .wrapper-2{
     display: grid;
-    grid-template-rows: 100px 50px 500px 400px;
+    grid-template-rows: 100px 50px 350px 300px 300px;
     grid-template-areas:
         "main"
         "nav"
         "history"
+        "archive"
         "footer";
         row-gap: 10px;
 }
@@ -243,7 +244,7 @@
     margin-top: -10px;
 }
 
-.archive-en {
+.archive-if {
     text-align: center;
     justify-self: center;
     grid-area: archive;
