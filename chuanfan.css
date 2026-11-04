@@ -1,39 +1,26 @@
  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Redaction+20:ital,wght@0,400;0,700;1,400&display=swap');
 .wrapper {
     display: grid;
-    grid-template-rows: 100px 50px 300px 250px 100px 350px 500px 300px;
+    grid-template-rows: 100px 300px 320px 300px 350px 400px 300px;
     grid-template-areas:
-        "main"
-        "nav"
-        "banner"
-        "con" 
-        "contacts"
-        "silliotic"
-        "archive"
-        "footer";
-        row-gap: 10px;
-}
-.wrapper-2{
-    display: grid;
-    grid-template-rows: 100px 50px 350px 300px 300px;
-    grid-template-areas:
-        "main"
-        "nav"
-        "history"
-        "archive"
-        "footer";
+        "main main"
+        "banner banner"
+        "con con"
+        "contacts bigbutton"
+        "contacts bigbutton"
+        "history history"
+        "footer footer";
         row-gap: 10px;
 }
 
-    .wrapper-en {
+.creations {
     display: grid;
-    grid-template-rows: 100px 300px 300px 100px 500px 300px;
+    grid-template-rows: 100px 70px 5500px 300px;
     grid-template-areas:
         "main"
-        "banner"
-        "con"
-        "contacts"
-        "archive"
+        "hackmd"
+        "drawings"
         "footer";
         row-gap: 10px;
 }
@@ -111,9 +98,10 @@
     justify-self: center;
 }
 .content-title {
+    font-family:'Noto Serif TC' , 'Noto Serif';
     justify-self: center;
     text-align: center;
-    color: #ffe6ac;
+    color: #ffffff;
 }
 .content {
     position: relative;
@@ -127,9 +115,9 @@
 }
 .contacts {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
-    justify-self: center;
+    justify-self: end;
     color: #ffe6ac;
     gap: 20px;
     grid-area: contacts;
@@ -137,29 +125,57 @@
 .cbar {
     display: block;
     align-items: center;
+    text-align: left;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
     width: 130px;
     height: 40px;
     padding: 10px 0;
-    color: #3f4955;
-    background-color: #ffe6ac;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.cbar:hover {
+    color: #b17a57;
+}
+.history {
+    position: relative;
+    text-align: left;
+    justify-self: center;
+    border: 1px solid #ffe6ac;
+    color: #ffe6ac;
+    width: 450px;
+    height: 400px;
+    padding: 20px;
+    line-height: 1.5;
     border-radius: 8px;
     box-sizing: border-box;
+    grid-area: history;
 }
-.cbar:hover {
-    background-color: #b17a57;
-    color: #ffffff;
+
+.his-title {
+    text-align: left;
+    color: #ffe6ac;
+    margin-top: -10px;
 }
 .footer {
+    display: flex;
     justify-self: center;
-    justify-content: center;
+    grid-area: footer;
 }
+.bigbutton {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-self: center;
+    gap: 20px;
+    grid-area: bigbutton;
+}
+
 .silliotic  {
     position: relative;
     justify-self: center;
-    grid-area: silliotic;
 }
 .silliotic a {
     color: #ffe6ac;
@@ -184,6 +200,7 @@
     height: 250px;
     padding: 20px;
     line-height: 1.5;
+    border-radius: 8px;
 }
 .zhongli {
     float: left;
@@ -195,17 +212,16 @@
 .archive {
     text-align: center;
     justify-self: center;
-    grid-area: archive;
 
 }
 .archive a {
     text-decoration: none;
 }
 .arch-title {
-    font-family:'Noto Serif TC' , 'Noto Serif';
+    font-family: 'Redaction 20';
     color: #3f4955;
     justify-self: center;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 .arch-text {
     display: block;
@@ -215,6 +231,7 @@
     height: 250px;
     padding: 20px;
     line-height: 1.5;
+    border-radius: 8px;
 }
 .biya {
     float: right;
@@ -223,35 +240,39 @@
     margin-top: -50px;
     margin-right: 10px;
 }
-.history {
-    position: relative;
-    text-align: left;
+
+.drawings {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    align-items: center;
     justify-self: center;
-    border: 1px solid #ffe6ac;
-    color: #ffe6ac;
-    width: 450px;
-    height: 300px;
-    padding: 20px;
-    line-height: 1.5;
-    border-radius: 8px;
-    box-sizing: border-box;
-    grid-area: history;
+    grid-area: drawings;
+
+    > img {
+    width: 300px;
+}
 }
 
-.his-title {
-    text-align: left;
+.hackmd {
     color: #ffe6ac;
-    margin-top: -10px;
-}
-
-.archive-if {
+    align-items: center;
     text-align: center;
     justify-self: center;
-    grid-area: archive;
+    border: 1px solid #ffe6ac;
+    width: 150px;
+    height: 70px;
+    border-radius: 8px;
+    grid-area: hackmd;
 
 }
 
-.clchere{
+.hackmd a {
+    color: inherit;
     text-decoration: none;
-    color:#ffffff;
+}
+
+.hackmd-title {
+    margin-top: 10px;
+    font-size: 18px;
 }
