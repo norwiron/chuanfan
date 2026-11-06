@@ -16,10 +16,10 @@
 
 .creations {
     display: grid;
-    grid-template-rows: 100px 70px 5500px 300px;
+    grid-template-rows: 100px 70px 6000px 300px;
     grid-template-areas:
         "main"
-        "hackmd"
+        "filter"
         "drawings"
         "footer";
         row-gap: 10px;
@@ -248,31 +248,23 @@
     align-items: center;
     justify-self: center;
     grid-area: drawings;
+}
 
-    > img {
+.drawings img {
     width: 300px;
 }
+
+.fil-item.hide {
+  display: none;
 }
 
-.hackmd {
+.filter {
+    grid-area: filter;
+}
+
+.filter-title {
     color: #ffe6ac;
-    align-items: center;
-    text-align: center;
-    justify-self: center;
-    border: 1px solid #ffe6ac;
-    width: 150px;
-    height: 70px;
-    border-radius: 8px;
-    grid-area: hackmd;
-
-}
-
-.hackmd a {
-    color: inherit;
-    text-decoration: none;
-}
-
-.hackmd-title {
     margin-top: 10px;
     font-size: 18px;
+    justify-self: center;
 }
