@@ -164,7 +164,6 @@
 .footer {
     display: flex;
     justify-self: center;
-    grid-area: footer;
 }
 
 
@@ -273,12 +272,18 @@
     transform: rotateZ(5deg);
 }
 
+.artworks {
+    width: min(100% - 64px, 1200px);
+  margin-inline: auto;
+}
+
 .drawings {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
-    gap: 5px;
     align-items: center;
+    text-align: center;
+    gap: 5px;
     grid-area: drawings;
 }
 
