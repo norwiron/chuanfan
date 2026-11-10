@@ -2,26 +2,24 @@
  @import url('https://fonts.googleapis.com/css2?family=Redaction+20:ital,wght@0,400;0,700;1,400&display=swap');
 .wrapper {
     display: grid;
-    grid-template-rows: 100px 300px 320px 300px 350px 400px 300px;
+    grid-template-rows: 100px 300px 320px 300px 350px 400px;
     grid-template-areas:
         "main main"
         "banner banner"
         "con con"
         "contacts bigbutton"
         "contacts bigbutton"
-        "history history"
-        "footer footer";
+        "history history";
         row-gap: 10px;
 }
 
 .creations {
     display: grid;
-    grid-template-rows: 100px 70px 4500px 300px;
+    grid-template-rows: 100px 70px 4500px;
     grid-template-areas:
         "main"
         "filter"
-        "drawings"
-        "footer";
+        "drawings";
         row-gap: 10px;
 }
 
