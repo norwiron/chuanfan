@@ -15,11 +15,12 @@
 
 .creations {
     display: grid;
-    grid-template-rows: 100px 70px 4500px;
+    grid-template-rows: 100px 70px 4500px 300px;
     grid-template-areas:
         "main"
         "filter"
-        "drawings";
+        "drawings"
+        "footer";
         row-gap: 10px;
 }
 
@@ -164,6 +165,7 @@
 .footer {
     display: flex;
     justify-self: center;
+    grid-area: footer;
 }
 
 
