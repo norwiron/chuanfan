@@ -2,28 +2,27 @@
  @import url('https://fonts.googleapis.com/css2?family=Redaction+20:ital,wght@0,400;0,700;1,400&display=swap');
 .wrapper {
     display: grid;
-    grid-template-rows: 100px 300px 320px 300px 350px 400px 300px 300px;
+    grid-template-rows: 100px 300px 320px 300px 330px 320px 400px 300px;
     grid-template-areas:
         "main main"
         "banner banner"
         "con con"
         "contacts bigbutton"
         "contacts bigbutton"
+        "static static"
         "history history"
-        "fishs fishs"
-        "footer footer";
+        "fishs fishs";
         row-gap: 10px;
 }
 
 .creations {
     display: grid;
-    grid-template-rows: 100px 70px 4500px 300px 300px;
+    grid-template-rows: 100px 70px 4500px 300px;
     grid-template-areas:
         "main"
         "filter"
         "drawings"
-        "fishs"
-        "footer";
+        "fishs";
         row-gap: 10px;
 }
 
@@ -171,19 +170,18 @@
     grid-area: fishs;
 }
 
-.footer {
+.static {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-self: center;
-    height: 300px;
-    width: 100%;
+    justify-content: center;
     gap: 10px;
-    grid-area: footer;
     text-decoration: none;
+    grid-area: static;
 }
 
-.larp {
+.larp { 
     width: 500px;
 }
 
@@ -191,11 +189,14 @@
 	position: relative;
     font-family: 'Times New Roman', 'Noto Serif TC';
 	background-color:  #ffe6ac;
+    width: 375px;
+    height: 200px;
+    line-height: 1.5;
 	border-radius: .4em;
 }
 
 .speech p{
-    padding: 10px 20px;
+    padding: 3px 20px;
     color: #3f4955;
 }
 
